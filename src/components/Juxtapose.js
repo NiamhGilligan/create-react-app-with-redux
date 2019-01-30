@@ -43,20 +43,6 @@ class Juxtapose extends Component {
         this.props.fetchImages();
     }
 
-    // formatData = () => {
-    //     let quote;
-    //     if (this.state.data) {
-    //         let data = this.state.data
-    //         quote = JSON.parse(data)
-    //             this.setState({
-    //                  quoteText : quote.quoteText ,
-    //                  quoteAuthor :quote.quoteAuthor
-    //             })
-
-    //     }
-    //     return quote
-
-    // }
 
     getNextQuote = () => {
         this.fetchQuote();
